@@ -1,6 +1,6 @@
 {
   "name": "@codecb/jest-config-ts",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "license": "MIT",
   "author": {
     "email": "icodemyownlife@gmail.com",
@@ -12,11 +12,12 @@
     "url": "https://github.com/code-cb/jest-configs.git"
   },
   "files": [
-    "./dist"
+    "./jest-preset.js",
+    "./jest-preset.d.ts"
   ],
-  "main": "./dist/index.js",
-  "exports": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "exports": "./jest-preset.js",
+  "main": "./jest-preset.js",
+  "types": "./jest-preset.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "yarn build"
